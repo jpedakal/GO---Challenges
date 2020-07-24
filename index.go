@@ -1,8 +1,8 @@
-package main
+package main         // package declaration
 
-import "fmt"
+import "fmt"         // importing the required packages
 
-func main() {
+func main() {        // starts execution of program
 	var x int= 12
 
 	fmt.Printf("%T", x)
