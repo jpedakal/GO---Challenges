@@ -11,3 +11,9 @@ Escape sequence            Meaning
 \a                          Alert or bell
 
 \b                          Backspace
+
+\f                          Form feed
+
+\n                          New line
+
+\r                          Carriage return
