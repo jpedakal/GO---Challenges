@@ -33,4 +33,8 @@ func main(){
 	fmt.Printf("Type of c is %T\n",c)
 }
 */
+package main
 
+func main(){
+	
+}
