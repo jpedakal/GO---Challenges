@@ -32,11 +32,26 @@ func main(){
 	fmt.Printf("Type of b is %T\n",b)
 	fmt.Printf("Type of c is %T\n",c)
 }
-*/
+
 package main
 
 import "fmt"
 
 func main(){
-    fmt.Println("Hello\bworld")
+    fmt.Println("Hello\tworld")
+}        // Hello world
+
+*/
+
+package main
+
+import "fmt"
+
+func main(){
+	const LENGTH int = 10
+	const WIDTH int =20
+	var area int
+
+	area= LENGTH * WIDTH
+	fmt.Printf("Area is %d",area)
 }
