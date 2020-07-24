@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Println("Welcome to GO language")
+	fmt.Printf("Welcome to GO language")
 }
 
