@@ -6,3 +6,8 @@ Escape sequence            Meaning
 
 \"                          "character
 
+\?                          ? character
+
+\a                          Alert or bell
+
+\b                          Backspace
