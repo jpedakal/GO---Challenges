@@ -43,6 +43,7 @@ func main(){
 
 */
 
+// constants
 package main
 
 import "fmt"
