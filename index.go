@@ -67,7 +67,6 @@ func main(){
 	fmt.Printf("value of a is %d",a)
 }
 
-
 // for loop implement
 package main
 
