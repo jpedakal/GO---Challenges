@@ -48,7 +48,7 @@ package main
 import "fmt"
 
 func main(){
-	const LENGTH int = 10     // It's a good practise to write constants in CAPITAL letters 
+	const LENGTH int = 10     // It's a good practise to write constants in CAPITAL letters
 	const WIDTH int =20
 	var area int
 
@@ -63,12 +63,19 @@ import "fmt"
 
 func main(){
 	var a int= 10
-	a++     
+	a++
 	fmt.Printf("value of a is %d",a)
 }
 
 */
 
-func main(){
-	fmt.Println("Hello")
+// for loop implement
+package main
+
+import "fmt"
+
+func main() {
+	for a := 0; a < 10; a++ {
+       fmt.Printf("a value is %d\n",a)
+	}
 }
