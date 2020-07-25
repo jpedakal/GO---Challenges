@@ -41,7 +41,6 @@ func main(){
     fmt.Println("Hello\tworld")
 }        // Hello world
 
-*/
 
 // constants declaration
 package main
@@ -56,3 +55,16 @@ func main(){
 	area= LENGTH * WIDTH
 	fmt.Printf("Area is %d",area)
 }
+
+//  Incremental operator
+package main
+
+import "fmt"
+
+func main(){
+	var a int= 10
+	a++     
+	fmt.Printf("value of a is %d",a)
+}
+
+*/
