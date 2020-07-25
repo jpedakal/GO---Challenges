@@ -49,7 +49,7 @@ package main
 import "fmt"
 
 func main(){
-	const LENGTH int = 10
+	const LENGTH int = 10     // It's a good practise to write constants in CAPITAL letters 
 	const WIDTH int =20
 	var area int
 
