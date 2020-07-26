@@ -69,7 +69,6 @@ func main(){
 
 // for loop implement
 package main
-
 import "fmt"
 func main() {
 	for a := 0; a < 10; a++ {
