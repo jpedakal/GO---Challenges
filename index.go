@@ -77,7 +77,7 @@ func main() {
        fmt.Printf("a value is %d\n",a)
 	}
 }
-
+*/
 // go to statement
 package main
 
@@ -86,4 +86,3 @@ import "fmt"
 func main(){
 	fmt.Println("welcome")
 }
-*/
