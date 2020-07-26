@@ -98,4 +98,4 @@ func max(a,b int) int{
 package main
 import "fmt"
 func main
-fmt
+fmt.Printf
