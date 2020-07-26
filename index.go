@@ -77,7 +77,7 @@ func main() {
        fmt.Printf("a value is %d\n",a)
 	}
 }
-*/
+
 // function declaration
 package main
 
@@ -97,3 +97,4 @@ func max(a,b int) int{
 	res= a+b
 	return res
 }
+*/
