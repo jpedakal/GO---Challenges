@@ -90,7 +90,6 @@ func main() {
 	fmt.Printf("result is %d",result)
 
 }
-
 func max(a,b int) int{
 	var res int
 	res= a+b
