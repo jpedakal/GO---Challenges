@@ -78,11 +78,22 @@ func main() {
 	}
 }
 */
-// go to statement
+// function declaration
 package main
 
 import "fmt"
 
-func main(){
-	fmt.Println("welcome")
+func main() {
+	var a int = 10
+	var b int = 20
+	var result int
+	result = max(a, b)
+	fmt.Printf("result is %d",result)
+
+}
+
+func max(a,b int) int{
+	var res int
+	res= a+b
+	return res
 }
