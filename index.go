@@ -98,3 +98,4 @@ func max(a,b int) int{
 	return res
 }
 */
+package main
