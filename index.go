@@ -71,7 +71,6 @@ func main(){
 package main
 
 import "fmt"
-
 func main() {
 	for a := 0; a < 10; a++ {
        fmt.Printf("a value is %d\n",a)
