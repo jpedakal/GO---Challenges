@@ -110,5 +110,9 @@ import "fmt"
 
 func main() {
 	var a int = 10
-	fmt.Printf("Address of variable is %x\n", &a)
+	var ad *int
+	ad = &a
+	fmt.Printf("address of variable is %x\n", &a)
+	fmt.Printf("address of pointerr is %x\n", ad)
+	fmt.Printf("Value at pointer is %d\n", *ad)
 }
