@@ -103,16 +103,28 @@ func main() {
 	var cars = [2][2] int {{1, 2}, {2, 3}}
 	fmt.Println("Car is", cars[0][1])
 }
-*/
+
+// Pointers
 package main
 
 import "fmt"
 
 func main() {
-	var a int = 10
-	var ad *int
-	ad = &a
+	var a int = 10     // --> actual variable declaration
+	var ip *int       // ---> pointer variable declaration
+	ip = &a
 	fmt.Printf("address of variable is %x\n", &a)
-	fmt.Printf("address of pointerr is %x\n", ad)
-	fmt.Printf("Value at pointer is %d\n", *ad)
+	fmt.Printf("address of pointerr is %x\n", ip)
+	fmt.Printf("Value at pointer is %d\n", *ip)
 }
+
+// Nil Pointer in GO
+package main
+
+import "fmt"
+
+func main() {
+	var ip *int
+	fmt.Printf("Address of variable is %x\n",ip)          // 0
+}
+*/
