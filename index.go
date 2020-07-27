@@ -151,5 +151,4 @@ func main() {
 	Book1.subject = "Basics"
 	Book1.id = 1234
 	fmt.Printf("Book1 title is %s\n", Book1.title)
-
 }
