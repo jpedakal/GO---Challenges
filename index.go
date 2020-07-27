@@ -93,7 +93,6 @@ func max(a,b int) int{
 	res= a+b
 	return res
 }
-*/
 
 // create Arrays
 package main
@@ -103,4 +102,13 @@ import "fmt"
 func main() {
 	var cars = [2][2] int {{1, 2}, {2, 3}}
 	fmt.Println("Car is", cars[0][1])
+}
+*/
+package main
+
+import "fmt"
+
+func main() {
+	var a int = 10
+	fmt.Printf("Address of variable is %x\n", &a)
 }
