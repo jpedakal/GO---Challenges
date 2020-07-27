@@ -128,3 +128,10 @@ func main() {
 	fmt.Printf("Address of variable is %x\n",ip)          // 0
 }
 */
+
+//
+package main
+
+func main() {
+
+}
