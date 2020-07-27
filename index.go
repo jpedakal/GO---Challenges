@@ -130,13 +130,12 @@ func main() {
 */
 
 // Structures
-
 package main
 
 import "fmt"
 
 // Books export
-type Books struct {        
+type Books struct {           // struct is a datatype in Go
 	title   string
 	author  string
 	subject string
