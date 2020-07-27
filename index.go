@@ -129,9 +129,27 @@ func main() {
 }
 */
 
-//
+// Structures
+
 package main
 
+import "fmt"
+
+// Books export
+type Books struct {        
+	title   string
+	author  string
+	subject string
+	id      int
+}
+
 func main() {
+	var Book1 Books
+
+	Book1.title = "Go language"
+	Book1.author = "kandy"
+	Book1.subject = "Basics"
+	Book1.id = 1234
+	fmt.Printf("Book1 title is %s\n", Book1.title)
 
 }
