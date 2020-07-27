@@ -94,8 +94,14 @@ func max(a,b int) int{
 	return res
 }
 */
+
+// create Arrays
 package main
+
 import "fmt"
-func main
-fmt.Printf
-//
+
+func main() {
+	var cars [5]string
+	cars = {"bmw", "dwq"}
+	fmt.Println("Car is", cars[1])
+}
