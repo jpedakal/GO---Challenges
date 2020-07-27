@@ -101,6 +101,6 @@ package main
 import "fmt"
 
 func main() {
-	var cars = [2][2]int{{1, 2}, {2, 3}}
+	var cars = [2][2] int {{1, 2}, {2, 3}}
 	fmt.Println("Car is", cars[0][1])
 }
