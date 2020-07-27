@@ -127,7 +127,6 @@ func main() {
 	var ip *int
 	fmt.Printf("Address of variable is %x\n",ip)          // 0
 }
-*/
 
 // Structures
 package main
@@ -151,3 +150,4 @@ func main() {
 	Book1.id = 1234
 	fmt.Printf("Book1 title is %s\n", Book1.title)
 }
+*/
