@@ -152,6 +152,7 @@ func main() {
 }
 */
 
+// Structures as Function Arguments
 package main
 
 import "fmt"
