@@ -182,8 +182,6 @@ func printBook(data Books){
 	fmt.Printf("Book1 title is %s\n",data.company)
 }
 
-*/
-
 // Pointers to Structures
 package main
 
