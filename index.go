@@ -150,7 +150,7 @@ func main() {
 	Book1.id = 1234
 	fmt.Printf("Book1 title is %s\n", Book1.title)
 }
-*/
+
 
 // Structures as Function Arguments
 package main
@@ -168,7 +168,6 @@ type Books struct {
 func main() {
 	var Book1 Books
 
-	/* Book1 specification */
 	Book1.name = "Jayakrishna"
 	Book1.age = 29
 	Book1.company = "DXC"
@@ -182,3 +181,5 @@ func printBook(data Books){
 	fmt.Printf("Book1 title is %s\n",data.name)
 	fmt.Printf("Book1 title is %s\n",data.company)
 }
+
+*/
