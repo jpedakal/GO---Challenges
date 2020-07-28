@@ -9,12 +9,12 @@ func main() {        // starts execution of program
 	fmt.Printf("%T", x)
 }
 
- we can declare variables in 3 ways:
+ we can declare variables in 3 ways
 var x int = 15
    OR
 var x = 15
    OR
-x := 15
+x = 15
 
 
 // Mixed variable declaration
@@ -71,7 +71,7 @@ func main(){
 package main
 import "fmt"
 func main() {
-	for a := 0; a < 10; a++ {
+	for a = 0; a < 10; a++ {
        fmt.Printf("a value is %d\n",a)
 	}
 }
@@ -151,3 +151,33 @@ func main() {
 	fmt.Printf("Book1 title is %s\n", Book1.title)
 }
 */
+
+package main
+
+import "fmt"
+
+// Books export
+type Books struct {
+	name    string
+	age     int
+	company string
+	ctc     float32
+}
+
+func main() {
+	var Book1 Books
+
+	/* Book1 specification */
+	Book1.name = "Jayakrishna"
+	Book1.age = 29
+	Book1.company = "DXC"
+	Book1.ctc = 11.5
+
+	printBook(Book1)
+
+}
+
+func printBook(data Books){
+	fmt.Printf("Book1 title is %s\n",data.name)
+	fmt.Printf("Book1 title is %s\n",data.company)
+}
