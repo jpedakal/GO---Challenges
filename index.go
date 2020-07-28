@@ -207,3 +207,11 @@ func printBook(book *Books) {
 	fmt.Printf("book name is %s\n",book.author)
 }
 */
+
+package main
+
+import "fmt"
+
+func main(){
+	
+}
