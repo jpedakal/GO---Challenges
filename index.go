@@ -242,3 +242,16 @@ func main() {
 }
 */
 
+// Recursive in GO
+
+package main
+
+import "fmt"
+
+func main() {
+	recursive()
+}
+
+func recursive() {
+	recursive()    // function call itself
+}
