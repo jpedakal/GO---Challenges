@@ -215,5 +215,29 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("welcome")
+	var countryCapitalMap map[string]string
+
+	//create a map
+	countryCapitalMap = make(map[string]string)
+
+	//Insert key-value pairs in the map
+	countryCapitalMap["India"] = "Delhi"
+	countryCapitalMap["Russia"] = "Mascow"
+
+	//Print map using keys
+	for country := range countryCapitalMap {
+		fmt.Println("Capital of", country, "is", countryCapitalMap[country])
+	}
+
+	// delete an entry
+	delete(countryCapitalMap,"India");
+	fmt.Println("Entry of India deleted")
+
+	fmt.Println("countrymap updated")
+
+	// Print map using keys
+	for country := range countryCapitalMap{
+		fmt.Println("country",country,"capital",countryCapitalMap[country])
+	}
+
 }
