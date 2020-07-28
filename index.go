@@ -184,10 +184,27 @@ func printBook(data Books){
 
 */
 
+// Pointers to Structures
 package main
 
 import "fmt"
 
-func main(){
-	fmt.Printf("")
+// Books export
+type Books struct {
+	name   string
+	author string
+}
+
+func main() {
+
+	var book1 Books
+
+	book1.name = "Go lang"
+	book1.author = "Rob mike"
+	printBook(&book1)
+}
+
+func printBook(book *Books) {
+	fmt.Printf("book name is %s\n",book.name)
+	fmt.Printf("book name is %s\n",book.author)
 }
