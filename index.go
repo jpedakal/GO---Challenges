@@ -206,3 +206,4 @@ func printBook(book *Books) {
 	fmt.Printf("book name is %s\n",book.name)
 	fmt.Printf("book name is %s\n",book.author)
 }
+*/
