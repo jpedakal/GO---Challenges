@@ -308,11 +308,19 @@ func statusCheck(link string, c chan string) {
 }
 */
 
+// Route Handlers
 package main
+import (
+	"fmt"
+	"net/http"
+)
 
-import "fmt"
+// RootHandler export
+func RootHandler(w http.ResponseWriter, r *http.Request){
+  fmt.Fprintln(w, "<h1>Welcome To Go Language</h1>")
+}
 
-func main() {
-name := "jayakrishna"
-	fmt.Println("name is",name)
+func main(){
+  http.HandleFunc("/",RootHandler)
+  http.ListenAndServe(":8000",nil)
 }
