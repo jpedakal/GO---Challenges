@@ -307,3 +307,9 @@ func statusCheck(link string, c chan string) {
 	}
 }
 */
+
+package main
+
+func main(){
+	
+}
