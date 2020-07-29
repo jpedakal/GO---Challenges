@@ -253,5 +253,6 @@ func main() {
 }
 
 func recursive() {
+	fmt.Println("welcome")
 	recursive()    // function call itself
 }
