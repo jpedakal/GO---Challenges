@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	link := "https://googl.com"
+	link := "https://google.com"
 	resp, err := http.Get(link)
 	if err != nil {
 		fmt.Println("The URL might be down", err)
