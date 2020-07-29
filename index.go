@@ -254,7 +254,6 @@ func recursive() {
 	fmt.Println("welcome")
 	recursive()    // function call itself
 }
-*/
 
 // Type Casting
 package main
@@ -269,3 +268,4 @@ func main() {
 	fmt.Printf("result is %f\n", result)
 
 }
+*/
