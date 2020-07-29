@@ -310,6 +310,9 @@ func statusCheck(link string, c chan string) {
 
 package main
 
-func main(){
-	
+import "fmt"
+
+func main() {
+name := "jayakrishna"
+	fmt.Println("name is",name)
 }
