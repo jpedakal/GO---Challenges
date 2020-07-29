@@ -286,7 +286,7 @@ func main() {
 		"https://golang.org",
 	}
 
-	c := make(chan string)
+	c := make(chan string)        // Channel creation
 
 	for _, link := range links {
 		go statusCheck(link, c)
