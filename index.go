@@ -269,3 +269,30 @@ func main() {
 
 }
 */
+
+// Channels in GO
+package main
+
+import ("fmt";"net/http")
+
+func main() {
+	links := []string{
+		"https://www.google.com/",
+		"https://github.com/",
+		"https://facebook.com/",
+		"https://github.com/",
+		"https://golang.org/",
+	}
+
+	for _,link:= range links{
+		statusCheck(link)
+	}
+}
+
+func statusCheck(link string){
+	_,err := http.Get(link)
+	if err != nil{
+		fmt.Println("The URL is down",link)
+	}
+	fmt.Println(link," is up")
+}
