@@ -306,7 +306,6 @@ func statusCheck(link string, c chan string) {
 		c <- "The URL is up"
 	}
 }
-*/
 
 // Route Handlers
 package main
@@ -324,3 +323,6 @@ func main(){
   http.HandleFunc("/",RootHandler)
   http.ListenAndServe(":8000",nil)
 }
+*/
+
+package main
