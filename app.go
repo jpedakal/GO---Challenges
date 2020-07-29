@@ -1,4 +1,4 @@
-// Test
+// Test http package
 package main
 
 import (
