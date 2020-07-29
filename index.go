@@ -273,26 +273,37 @@ func main() {
 // Channels in GO
 package main
 
-import ("fmt";"net/http")
+import (
+	"fmt"
+	"net/http"
+)
 
 func main() {
 	links := []string{
-		"https://www.google.com/",
-		"https://github.com/",
-		"https://facebook.com/",
-		"https://github.com/",
-		"https://golang.org/",
+		"https://www.google.com",
+		"https://stackoverflow.com",
+		"https://facebook.com",
+		"https://golang.org",
 	}
 
-	for _,link:= range links{
-		statusCheck(link)
+	c := make(chan string)
+
+	for _, link := range links {
+		go statusCheck(link, c)
+	}
+
+	for i := 0; i < len(links); i++ {
+		fmt.Println(<-c)
 	}
 }
 
-func statusCheck(link string){
-	_,err := http.Get(link)
-	if err != nil{
-		fmt.Println("The URL is down",link)
+func statusCheck(link string, c chan string) {
+	_, err := http.Get(link)
+	if err != nil {
+		fmt.Println(link, " is down")
+		c <- "The URL is down"
+	} else {
+		fmt.Println(link, " is up")
+		c <- "The URL is up"
 	}
-	fmt.Println(link," is up")
 }
