@@ -256,3 +256,15 @@ func recursive() {
 }
 */
 
+package main
+
+import "fmt"
+
+func main() {
+	var sum int = 32
+	var count int = 65
+	var result float32
+	result = float32(count)/float32(sum)
+	fmt.Println("result is", result)
+
+}
