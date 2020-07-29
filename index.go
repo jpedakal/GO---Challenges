@@ -268,7 +268,6 @@ func main() {
 	fmt.Printf("result is %f\n", result)
 
 }
-*/
 
 // Channels in GO
 package main
@@ -307,3 +306,4 @@ func statusCheck(link string, c chan string) {
 		c <- "The URL is up"
 	}
 }
+*/
