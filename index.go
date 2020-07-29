@@ -256,6 +256,7 @@ func recursive() {
 }
 */
 
+// Type Casting
 package main
 
 import "fmt"
@@ -265,6 +266,6 @@ func main() {
 	var count int = 65
 	var result float32
 	result = float32(count)/float32(sum)
-	fmt.Println("result is", result)
+	fmt.Printf("result is %f\n", result)
 
 }
