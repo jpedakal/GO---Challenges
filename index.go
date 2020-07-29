@@ -240,10 +240,8 @@ func main() {
 	}
 
 }
-*/
 
 // Recursive in GO
-
 package main
 
 import "fmt"
@@ -256,3 +254,5 @@ func recursive() {
 	fmt.Println("welcome")
 	recursive()    // function call itself
 }
+*/
+
