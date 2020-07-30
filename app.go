@@ -6,13 +6,14 @@ import (
 	"net/http"
 )
 
-func main() {
-	link := "https://google.com"
-	resp, err := http.Get(link)
-	if err != nil {
-		fmt.Println("The URL might be down", err)
-	} else {
-		fmt.Println("Response of link is", resp)
-	}
+// RouteHandler export
+func RouteHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintln(w, "<h1>Welcome To GO</h1>")
 }
+
+func main() {
+	http.HandleFunc("/", RouteHandler)
+	http.ListenAndServe(":3000", nil)
+}
+
 
