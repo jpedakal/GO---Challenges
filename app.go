@@ -12,8 +12,8 @@ func RouteHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", RouteHandler)
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+
+	})
 	http.ListenAndServe(":3000", nil)
 }
-
-
