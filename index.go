@@ -323,11 +323,18 @@ func main(){
   http.HandleFunc("/",RootHandler)
   http.ListenAndServe(":8000",nil)
 }
-*/
 
 // Math package
 package main
 
-func main(){
-	
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	const a = 9
+	c := math.Sqrt(a)
+	fmt.Println("The value of c is", c)
 }
+*/
