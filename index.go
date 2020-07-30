@@ -338,3 +338,19 @@ func main() {
 	fmt.Println("The value of c is", c)
 }
 */
+
+// crypto/sha1 package
+package main
+
+import (
+	"crypto/sha1"
+	"fmt"
+	"io"
+)
+
+func main() {
+	h := sha1.New()
+	io.WriteString(h, "His money is twice tainted:")
+	fmt.Printf("% x", h)
+}
+
