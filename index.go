@@ -327,3 +327,7 @@ func main(){
 
 // Math package
 package main
+
+func main(){
+	
+}

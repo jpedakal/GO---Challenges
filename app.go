@@ -1,3 +1,4 @@
+/*
 // Test http package
 package main
 
@@ -14,3 +15,4 @@ func main() {
 	})
 	http.ListenAndServe(":3000", nil)
 }
+*/
