@@ -354,7 +354,7 @@ func main() {
 	fmt.Printf("% x", h)
 }
 
-// io package in GO
+// io package in GO for copy
 package main
 
 import (
