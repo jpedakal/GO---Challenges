@@ -404,3 +404,5 @@ func main() {
 	}
 }
 */
+
+package main
