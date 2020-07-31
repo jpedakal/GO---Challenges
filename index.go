@@ -353,7 +353,6 @@ func main() {
 	io.WriteString(h, "His money is twice tainted:")
 	fmt.Printf("% x", h)
 }
-*/
 
 // io package in GO
 package main
@@ -372,3 +371,4 @@ func main() {
 		log.Fatal(err)
 	}
 }
+*/
