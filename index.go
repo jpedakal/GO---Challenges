@@ -385,3 +385,22 @@ func main() {
 	io.WriteString(os.Stdout, "Welcome To GO Language")
 }
 */
+
+// CopyN --> copies N number of bytes
+
+package main
+
+import (
+	"io"
+	"log"
+	"os"
+	"strings"
+)
+
+func main() {
+	r := strings.NewReader("Welcome To GO")
+	_, err := io.CopyN(os.Stdout, r, 5)
+	if err != nil {
+		log.Fatal(err)
+	}
+}
