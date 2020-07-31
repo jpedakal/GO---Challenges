@@ -371,5 +371,17 @@ func main() {
 		log.Fatal(err)
 	}
 }
-*/
 
+
+// Write string
+package main
+
+import (
+	"io"
+	"os"
+)
+
+func main() {
+	io.WriteString(os.Stdout, "Welcome To GO Language")
+}
+*/
