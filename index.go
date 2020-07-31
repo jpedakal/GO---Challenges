@@ -337,7 +337,7 @@ func main() {
 	c := math.Sqrt(a)
 	fmt.Println("The value of c is", c)
 }
-*/
+
 
 // crypto/sha1 package
 package main
@@ -353,4 +353,4 @@ func main() {
 	io.WriteString(h, "His money is twice tainted:")
 	fmt.Printf("% x", h)
 }
-
+*/
