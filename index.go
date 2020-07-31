@@ -354,3 +354,21 @@ func main() {
 	fmt.Printf("% x", h)
 }
 */
+
+// io package in GO
+package main
+
+import (
+	"io"
+	"log"
+	"os"
+	"strings"
+)
+
+func main() {
+	readInfo := strings.NewReader("Welcome To Go Family")
+	_, err := io.Copy(os.Stdout, readInfo)
+	if err != nil {
+		log.Fatal(err)
+	}
+}
