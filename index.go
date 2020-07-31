@@ -384,7 +384,6 @@ import (
 func main() {
 	io.WriteString(os.Stdout, "Welcome To GO Language")
 }
-*/
 
 // CopyN --> copies N number of bytes
 
@@ -404,3 +403,4 @@ func main() {
 		log.Fatal(err)
 	}
 }
+*/
