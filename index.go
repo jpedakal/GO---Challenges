@@ -405,7 +405,7 @@ func main() {
 }
 */
 
-//
+// Go
 package main
 
 import "fmt"
