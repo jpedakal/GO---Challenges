@@ -405,7 +405,7 @@ func main() {
 }
 */
 
-// Go
+// Go webservice
 package main
 
 import "fmt"
