@@ -405,7 +405,7 @@ func main() {
 }
 */
 
-// Go REST API to fetch details 
+// Go REST API to fetch details
 package main
 
 import "fmt"
