@@ -405,7 +405,7 @@ func main() {
 }
 */
 
-// Go REST API to fetch details
+// Go returns multiple values from function
 package main
 
 import "fmt"
