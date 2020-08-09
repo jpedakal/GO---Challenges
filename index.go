@@ -410,6 +410,7 @@ package main
 
 import "fmt"
 
-func main(){
-	fmt.Println("Welcome To DXC")
+func main() {
+	var a = 10
+	fmt.Println("Welcome To DXC",a)
 }
