@@ -408,9 +408,17 @@ func main() {
 // Go returns multiple values from function
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
+func names() (string, string) {
+	return "foo", "bar"
+}
 func main() {
-	var a = 10
-	fmt.Println("Welcome To DXC",a)
+	n1, n2 := names()
+	fmt.Println(n1, n2)     // It will print two strings foo and bar
+	n3, _ := names()       // Get first return value and skip second
+	fmt.Println(n3)
+
 }
