@@ -403,7 +403,7 @@ func main() {
 		log.Fatal(err)
 	}
 }
-*/
+
 
 // Go returns multiple values from function
 package main
@@ -421,4 +421,21 @@ func main() {
 	n3, _ := names()       // Get first return value and skip second
 	fmt.Println(n3)
 
+}
+*/
+
+// Read TCP status
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"net"
+)
+
+func main() {
+	conn, _ := net.Dial("tcp", "golang.org:80")
+	//fmt.Fprintf(conn, "GET / HTTP/1.0\r\n\r\n")
+	status, _ := bufio.NewReader(conn).ReadString('\n')
+	fmt.Println(status)
 }
