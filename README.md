@@ -2,3 +2,4 @@
 This is about GO language
 Go questions
 Go practice
+Go solutions
